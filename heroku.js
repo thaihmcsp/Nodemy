@@ -13,7 +13,7 @@ app.get('/',function(req,res){
     res.json('Hello xxxxxxx');
 })
 
-app.listen(5000);
+app.listen(process.env.PORT);
 
 
 
