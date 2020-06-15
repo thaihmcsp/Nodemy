@@ -9,10 +9,6 @@ app.get('/home',function(req, res){
     res.sendFile(home)
 })
 
-app.get('/',function(req,res){
-    res.json('Hello xxxxxxx');
-})
-
 app.listen(process.env.PORT,function(){});
 
 
