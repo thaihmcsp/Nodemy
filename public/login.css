@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* div{
+    border: 1px solid black;
+} */
+
+.page{
+    margin: 100px auto;
+    height: 500px;
+    width: 50%;
+}
+
+.login{
+    border: grey 1px solid;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 70px;
+}
+
+.text{
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.account{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+}
+
+.mail{
+    margin: 0 auto;
+}
+
+textarea{
+    height: 30px;
+}
+
+.login p{
+    cursor: pointer;
+    color: blue;
+    padding: 10px 0;
+}
+
+.create{
+    display: flex;
+    justify-content: space-between;
+}
+
+.create span{
+    cursor: pointer;
+    color: blue;
+    padding: 20px 0;
+}
+
+.create button{
+    cursor: pointer;
+    border-radius: 20%;
+    color: white;
+    background-color: blue;
+    padding: 5px 20px;
+}
+
+.footer{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lang{
+    width: 30%;
+}
+
+.foot{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foot1{
+    cursor: pointer;
+    color: grey;
+}
+

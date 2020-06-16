@@ -9,6 +9,13 @@ app.get('/home',function(req, res){
     res.sendFile(home)
 })
 
+app.get('/login',function(req, res){
+    var login = path.join(__dirname,'./login.html')
+    res.sendFile(login)
+})
+
+// app.listen(5000)
+
 app.listen(process.env.PORT,function(){});
 
 

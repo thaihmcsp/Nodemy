@@ -45,6 +45,17 @@
     justify-content: center;
 }
 
+.search1{
+    width: 455px;
+    border: gray 1px solid;
+    height: 25px;
+    display: flex;
+}
+
+.search1 button{
+    cursor: pointer;
+}
+
 .line {
     display: flex;
     flex-direction: row;
